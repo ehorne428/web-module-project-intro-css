@@ -1,0 +1,142 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    max-width: 100%;
+}
+html {
+    font-size: 62.5%
+    }
+ @keyframes example {
+        from {background-color: #ff764e;}
+        to {background-color: cornflowerblue;}
+}
+@keyframes Learn {
+    from {background-color: #5ED3EB;}
+    to {background-color: salmon;}
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+header nav{
+    width:100%;
+    text-align: center;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 4%;
+    font-size: 2rem;
+}
+nav .buttonone{
+    background-color: #ff764e;
+    display:inline-block;
+    width:14%;
+    text-align:center;
+    padding: 1.5% 3%;
+    border-radius:15px;
+    margin: 5% 4%;
+}
+nav .buttonone:hover{
+    animation-name: example;
+    animation-duration: 5s;
+}
+nav .buttontwo{
+    background-color:#5ED3EB; 
+    display:inline-block;
+    width:14%;
+    text-align:center;
+    padding: 1.5% 3%;
+    border-radius:15px;
+    margin: 5% 4%;
+}
+nav .buttontwo:hover{
+    animation-name: Learn;
+    animation-duration: 5s;
+}
+nav .buttonthree{
+    background-color:#FFCD69; 
+    display:inline-block;
+    width:14%;
+    text-align:center;
+    padding: 1.5% 3%;
+    border-radius:15px;
+    margin: 5% 4%;
+}
+
+h1 {font-family: 'Chelsea Market', cursive;
+    font-size: 4rem;
+    text-align: center;
+    margin: 8%;
+
+ }
+p {
+    font-size:2rem;
+}
+.about {
+    background-color:#DDB9A3;
+    text-align: center;
+    padding: 2% 4%;
+    margin:5%;
+    color:white;
+}
+
+.about:hover {
+    background-color: salmon;
+    color: #DDB9A3;
+}
+
+footer{
+    background-color: #F9E7DC;
+}
+b {
+    font-weight: 900;
+}
+#header_img {
+    border-radius: 50%;
+    display:inline-block;
+    width: 25%;
+    margin: 5%;
+    float:left;
+}
+
+#fire {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:10%;
+    max-height: 10%;
+}
+#camper {
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:3%;
+    max-width: 10%;
+    max-height: 10%;
+}
+.icons p {
+    text-align:center;
+    background-color:white;
+    margin: 2% 40%;
+}
+#footer_img {
+    display:block;
+    margin-left:0;
+    margin-right:0;
+    height: 300px;
+    width: 100%;
+}
+header .intro{
+    display:inline-block;
+    line-height: 75px;
+}
+header p{
+    text-align:center;
+    margin: 8%;
+}
+footer nav {
+    text-align:center;
+    width:100%;
+}
