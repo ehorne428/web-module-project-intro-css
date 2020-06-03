@@ -3,7 +3,6 @@
     margin:0;
     padding:0;
     max-width: 100%;
-    border:1px solid grey;
 }
 html {
     font-size: 62.5%
@@ -24,7 +23,7 @@ nav a{
 nav .buttonone{
     background-color: #ff764e;
     display:inline-block;
-    width:20%;
+    width:14%;
     text-align:center;
     padding: 1.5% 3%;
     border-radius:15px;
@@ -33,7 +32,7 @@ nav .buttonone{
 nav .buttontwo{
     background-color:#5ED3EB; 
     display:inline-block;
-    width:20%;
+    width:14%;
     text-align:center;
     padding: 1.5% 3%;
     border-radius:15px;
@@ -42,7 +41,7 @@ nav .buttontwo{
 nav .buttonthree{
     background-color:#FFCD69; 
     display:inline-block;
-    width:20%;
+    width:14%;
     text-align:center;
     padding: 1.5% 3%;
     border-radius:15px;
@@ -50,6 +49,8 @@ nav .buttonthree{
 }
 h1 {font-family: 'Chelsea Market', cursive;
     font-size: 4rem;
+    text-align: center;
+    margin: 8%;
 
  }
 p {
@@ -106,6 +107,11 @@ header .intro{
     display:inline-block;
     line-height:75px;
 }
-header h1 p{
+header p{
     text-align:center;
+    margin: 8%;
+}
+footer nav {
+    text-align:center;
+    width:100%;
 }
