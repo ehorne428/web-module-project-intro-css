@@ -6,6 +6,19 @@
 }
 html {
     font-size: 62.5%
+    }
+
+    @keyframes example {
+        from {background-color: #ff764e;}
+        to {background-color: cornflowerblue;}
+}
+@keyframes Learn {
+    from {background-color: #5ED3EB;}
+    to {background-color: salmon;}
+}
+@keyframes Get {
+    from {background-color:#FFCD69;}
+    to {background-color: peachpuff;} 
 }
 body{
     font-family: 'Roboto Mono', monospace;
@@ -29,6 +42,10 @@ nav .buttonone{
     border-radius:15px;
     margin: 5% 4%;
 }
+nav .buttonone:hover{
+    animation-name: example;
+    animation-duration: 5s;
+}
 nav .buttontwo{
     background-color:#5ED3EB; 
     display:inline-block;
@@ -38,6 +55,10 @@ nav .buttontwo{
     border-radius:15px;
     margin: 5% 4%;
 }
+nav .buttontwo:hover{
+    animation-name: Learn;
+    animation-duration: 5s;
+}
 nav .buttonthree{
     background-color:#FFCD69; 
     display:inline-block;
@@ -46,6 +67,10 @@ nav .buttonthree{
     padding: 1.5% 3%;
     border-radius:15px;
     margin: 5% 4%;
+}
+nav .buttonthree:hover{
+    animation-name: Get;
+    animation-duration: 5s;
 }
 h1 {font-family: 'Chelsea Market', cursive;
     font-size: 4rem;
@@ -63,6 +88,12 @@ p {
     margin:5%;
     color:white;
 }
+
+.about:hover {
+    background-color: salmon;
+    color: #DDB9A3;
+}
+
 footer{
     background-color: #F9E7DC;
 }
